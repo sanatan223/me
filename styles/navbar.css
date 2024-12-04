@@ -1,3 +1,7 @@
+body{
+    background-color: #beffcd;
+}
+
 .navbar{
     display: flex;
     justify-content: space-around;
@@ -7,14 +11,24 @@
     top: 0px;
     left: 0px;
     right: 0px;
-    background-color: #bf00ff;
+    background-color: #2AE455;
+    border: 2px solid black;
 }
 
 .btn1{
     height: 40px;
     width: 80px;
-    background-color: #640e81;
+    background-color: #044d15;
     color: white;
     border-radius: 5px;
     border: 2px solid black;
+}
+
+.btn1:active{
+    margin-bottom: -37px;
+    border-bottom: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    background-color: #7ff29a;
+    color: black;
 }
