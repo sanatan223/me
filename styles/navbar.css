@@ -32,3 +32,38 @@ body{
     background-color: #7ff29a;
     color: black;
 }
+
+.about{
+    margin-top: 85px;
+    background-color: pink;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.abouttexts{
+    width: 350px;
+    text-align: center;
+    size: 10px;
+}
+
+.mepic{
+    height: 150px;
+    width: 150px;
+    background-color: white;
+    border-radius: 20px;
+    rotate: 10deg;
+    display: inline-block;
+    position: relative;
+}
+
+.pic{
+    height: 170px;
+    position: absolute;
+    rotate: -10deg;
+    top: -30px;
+    left: -10px;
+    border-bottom: 5px solid black;
+    border-radius: 20px;
+}
