@@ -1,5 +1,7 @@
 body{
     background-color: #beffcd;
+    display: flex;
+    justify-content: center;
 }
 
 .navbar{
@@ -35,11 +37,13 @@ body{
 
 .about{
     margin-top: 85px;
-    background-color: pink;
-    height: 200px;
+    background-color: #2AE455;
+    height: 250px;
+    width: 700px;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    border-radius: 50px;
 }
 
 .abouttexts{
